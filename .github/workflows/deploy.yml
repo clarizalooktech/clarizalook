@@ -19,7 +19,6 @@ jobs:
       - name: Install Node Dependencies
         run: |
           npm i
-          npm run build
 
 
 
