@@ -6,7 +6,7 @@ on:
     workflow_dispatch:
 
 jobs:
-    build:
+    build-site:
       runs-on: ubuntu-latest
     
       steps:
@@ -19,6 +19,7 @@ jobs:
       - name: Install Node Dependencies
         run: |
           npm i
+          npm run build
 
 
 
