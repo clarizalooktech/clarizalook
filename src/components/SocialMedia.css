@@ -1,0 +1,38 @@
+.social-media {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-media {
+        left: 20px;
+        bottom: 20px;
+    }
+}
+
+.social-media__list {
+    list-style: none;
+}
+
+.social-media__list::after {
+    content: '';
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-sky);
+}
+
+.social-media__item {
+    display: block;
+    margin: 10px 0;
+    width: 15px;
+    height: 15px;
+}
+
+.social-media__item svg {
+    fill: var(--color-sky);
+}
