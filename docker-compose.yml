@@ -1,0 +1,9 @@
+version: '1.0'
+services:
+    clarizalook:
+        container_name: clarizal
+        ports:
+            - '3000:3000'
+        volumes:
+            - '${PWD}:/server'
+        image: clarizal

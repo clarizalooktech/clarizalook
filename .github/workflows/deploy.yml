@@ -1,0 +1,26 @@
+name: Deploy ClarizaLook
+
+on:
+    push:
+      branches: [ adding-assets ]
+    workflow_dispatch:
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+    
+      steps:
+      - name: Use Node
+        uses: actions/setup-node@v2
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node Dependencies
+        run: |
+          npm i
+          npm run build
+
+
+
+      
