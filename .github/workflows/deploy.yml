@@ -38,5 +38,5 @@ jobs:
           echo "pwd"
           pwd
           ls
-        #  aws s3 sync . s3://clarizalook-website/
+          aws s3 sync clarizalook/clarizalook s3://clarizalook-website/
       
