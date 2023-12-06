@@ -2,7 +2,7 @@ name: Deploy ClarizaLook
 
 on:
     push:
-      branches: [ adding-assets ]
+      branches: [ main ]
     workflow_dispatch:
 
 jobs:
@@ -35,8 +35,5 @@ jobs:
 
       - name: Deploy Service 
         run: |
-          echo "pwd"
-          pwd
-          ls
           aws s3 sync $(pwd) s3://clarizalook-website/
       
