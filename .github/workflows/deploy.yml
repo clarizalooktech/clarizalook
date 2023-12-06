@@ -35,5 +35,5 @@ jobs:
 
       - name: Deploy Service 
         run: |
-          echo 'deploy service'
+          aws s3 sync . s3://clarizalook-website/
       
