@@ -2,7 +2,13 @@ FROM node:18
 
 WORKDIR /server
 
-COPY package.json /server/package.json
-COPY package-lock.json /server/package-lock.json
+COPY package*.json ./
 
 RUN npm i
+
+# Bundle your app source
+COPY . .
+
+EXPOSE 3000
+
+CMD ["node", "src/app.js"]
