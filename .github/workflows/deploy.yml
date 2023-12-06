@@ -2,7 +2,7 @@ name: Deploy ClarizaLook
 
 on:
     push:
-      branches: [ main ]
+      branches: [ updating-configuration ]
     workflow_dispatch:
 
 jobs:
