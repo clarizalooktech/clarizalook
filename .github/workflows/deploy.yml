@@ -2,7 +2,7 @@ name: Deploy ClarizaLook
 
 on:
     push:
-      branches: [ main ]
+      branches: [ updating-configuration ]
     workflow_dispatch:
 
 jobs:
@@ -35,9 +35,4 @@ jobs:
 
       - name: Deploy Service 
         run: |
-          aws s3 sync $(pwd) s3://clarizalook-website/
-      
-      - name: Deploy Service 
-        run: |
-          npm start
-      
+          aws s3 sync $(pwd)/build/ s3://clarizalook-website/
