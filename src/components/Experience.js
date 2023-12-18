@@ -8,10 +8,6 @@ const Experience = () => {
             heading: 'Web & App Development',
             details: [
                 {
-                    name: 'Node JS',
-                    detail: 'Experienced'
-                },
-                {
                     name: 'Python',
                     detail: 'Highly Experienced'
                 },
@@ -20,15 +16,23 @@ const Experience = () => {
                     detail: 'Highly Experienced'
                 },
                 {
+                    name: 'Node JS',
+                    detail: 'Experienced'
+                },
+                {
+                    name: 'JavaScript',
+                    detail: 'Experienced'
+                },
+                {
+                    name: 'React',
+                    detail: 'Experienced'
+                }, 
+                {
                     name: 'PHP',
                     detail: 'Knowlegeable'
                 },
                 {
                     name: 'HTML',
-                    detail: 'Experienced'
-                },
-                {
-                    name: 'JavaScript',
                     detail: 'Experienced'
                 },
                 {
@@ -40,10 +44,6 @@ const Experience = () => {
                     detail: 'Experienced'
                 },
                 {
-                    name: 'React',
-                    detail: 'Experienced'
-                }, 
-                {
                     name: 'WordPress',
                     detail: 'Experienced'
                 }
@@ -53,7 +53,11 @@ const Experience = () => {
             heading: 'DevOps',
             details: [
                 {
-                    name: 'Linux System Administration',
+                    name: 'Linux Administration',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'CI/CD',
                     detail: 'Highly Experienced'
                 },
                 {
@@ -61,7 +65,11 @@ const Experience = () => {
                     detail: 'Highly Experienced'
                 },
                 {
-                    name: 'Docker Images, Containers',
+                    name: 'Docker',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Containerization',
                     detail: 'Highly Experienced'
                 },
                 {
@@ -73,11 +81,11 @@ const Experience = () => {
                     detail: 'Experienced'
                 },
                 {
-                    name: 'Continuous Integration, Continuous Deployment',
+                    name: 'Serverless: Lambda',
                     detail: 'Highly Experienced'
                 },
                 {
-                    name: 'Serverless: Lambda, Fargate ECS',
+                    name: 'Serverless: Fargate',
                     detail: 'Highly Experienced'
                 },
 
@@ -87,7 +95,7 @@ const Experience = () => {
             heading: 'Database',
             details: [
                 {
-                    name: 'PostGreSql',
+                    name: 'PostgreSQL',
                     detail: 'Highly Experienced'
                 },
                 {
@@ -95,9 +103,13 @@ const Experience = () => {
                     detail: 'Experienced'
                 },
                 {
-                    name: 'NoSQL: DynamoDB, ElasticCashe, MongoDB',
+                    name: 'NoSQL: DynamoDB',
                     detail: 'Experienced'
                 },
+                {
+                    name: 'NoSQL: ElasticCache',
+                    detail: 'Experienced'
+                }
             ]
         }
     ];
