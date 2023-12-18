@@ -37,21 +37,68 @@ const Experience = () => {
                     detail: 'Experienced'
                 },
                 {
-                    name: 'PHP',
-                    detail: 'Experienced'
-                },
-                {
                     name: 'Python',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Typescript',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'PHP',
+                    detail: 'Knowlegeable'
+                },
+            ]
+        },
+        {
+            heading: 'DevOps',
+            details: [
+                {
+                    name: 'Linux',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Bash',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Docker Images, Containers',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Kubernetes',
                     detail: 'Experienced'
                 },
                 {
-                    name: 'MongoDB',
+                    name: 'Helm',
                     detail: 'Experienced'
                 },
                 {
-                    name: 'MySQL',
+                    name: 'Continuous Integration, Continuous Deployment',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Serverless: Lambda, Fargate ECS',
+                    detail: 'Highly Experienced'
+                },
+
+            ]
+        },
+        {
+            heading: 'Database',
+            details: [
+                {
+                    name: 'PostGreSql',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'MySql Servers',
                     detail: 'Experienced'
-                }
+                },
+                {
+                    name: 'NoSQL: DynamoDB, ElasticCashe, MongoDB',
+                    detail: 'Experienced'
+                },
             ]
         }
     ];
