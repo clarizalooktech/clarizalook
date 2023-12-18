@@ -13,7 +13,9 @@ const About = () => {
                         <img src={image} alt='About Cleariza Look' />
                     </div>
                     <div className='about__col about__col--desc'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>As a developer, my passion continues to grow every day as I embark on my lifelong journey of learning. I am eager to take part in and contribute to building something that adds value to the end users.</p>
+                        <p>In my previous experience as a senior marketing consultant, I relished the opportunity to identify root problems, build great relationships with people, and develop technical aspects of my current role. I possess an attention to detail, the ability to work with different teams and people, and a mindset geared towards developing scalable processes. I hope to bring my experiences, problem-solving skills, and positive energy to the start of my new career as a devops engineer and developer.</p>
+                        <p>Besides work, I am a beach bum who loves prestine beaches, sunsets, reggae music, food and cocktails.😸</p>
                         <div className='about__col-button'>
                             <Link label="Let's Talk" theme="primary" />
                         </div>
