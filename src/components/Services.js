@@ -4,39 +4,36 @@ import './Services.css';
 const Services = () => {
     const list = [
         {
-            heading: 'UI/UX Design',
+            heading: 'DevOps',
             details: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+                'Infrastructure as Code (IaC) implementation and management',
+                'Continuous Integration/Continuous Deployment (CI/CD) setup and improvements',
+                'Cloud services and migration assistance and support',
+                'Database administration',
+                'Containerization and orchestration implementation to improve scalability and resource utilization',
+                'Monitoring and logging set up and management',
+                'Infra security automation',
+                'Consultation and training'
             ]
         },
         {
             heading: 'Web Development',
             details: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+                'Web app development using Node.js',
+                'Full-Stack Development: Combine Node.js with front-end technologies (React)',
+                'Serverless architecture development (lambda, fargate)',
+                'Wordpress site development',
             ]
         },
         {
-            heading: 'SEO',
+            heading: 'Google Ads Consulting & SEO Consulting',
             details: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+                'Keyword Research and Strategy',
+                'Ad Campaign Setup',
+                'Budget Management and forecasting',
+                'Ad Extensions implemention',
+                'Google Shopping, Mobile App pay per click, Youtube Ads management',
+                'Ads Performance Analysis and reporting'
             ]
         }
     ];

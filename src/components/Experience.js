@@ -5,8 +5,24 @@ import './Experience.css';
 const Experience = () => {
     const list = [
         {
-            heading: 'Frontend Development',
+            heading: 'Web & App Development',
             details: [
+                {
+                    name: 'Node JS',
+                    detail: 'Experienced'
+                },
+                {
+                    name: 'Python',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'Typescript',
+                    detail: 'Highly Experienced'
+                },
+                {
+                    name: 'PHP',
+                    detail: 'Knowlegeable'
+                },
                 {
                     name: 'HTML',
                     detail: 'Experienced'
@@ -26,39 +42,22 @@ const Experience = () => {
                 {
                     name: 'React',
                     detail: 'Experienced'
-                }
-            ]
-        },
-        {
-            heading: 'Backend Development',
-            details: [
+                }, 
                 {
-                    name: 'Node JS',
+                    name: 'WordPress',
                     detail: 'Experienced'
-                },
-                {
-                    name: 'Python',
-                    detail: 'Highly Experienced'
-                },
-                {
-                    name: 'Typescript',
-                    detail: 'Highly Experienced'
-                },
-                {
-                    name: 'PHP',
-                    detail: 'Knowlegeable'
-                },
+                }
             ]
         },
         {
             heading: 'DevOps',
             details: [
                 {
-                    name: 'Linux',
+                    name: 'Linux System Administration',
                     detail: 'Highly Experienced'
                 },
                 {
-                    name: 'Bash',
+                    name: 'Bash Programming',
                     detail: 'Highly Experienced'
                 },
                 {
