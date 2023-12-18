@@ -5,7 +5,7 @@ As a devops engineer and a software developer, my passion continues to grow ever
 
 In my previous experience as a senior marketing consultant, I relished the opportunity to identify root problems, build great relationships with people, and develop technical aspects of my current role. I possess an attention to detail, the ability to work with different teams and people, and a mindset geared towards developing scalable processes. I hope to bring my experiences, problem-solving skills, and positive energy to the start of my career as a devops engineer and software developer.
 
-Besides work, I am a beach bum who loves prestine beaches, sunsets, reggae music, food and cocktails.😸
+Besides work, I am a beach bum who loves prestine beaches, sunsets, reggae music, food and cocktails as well as a travel & culture enthusiast (a person who is curious, appreciates diversity, and loves learning new things).😸
 
 ## Getting Started
 
