@@ -35,4 +35,4 @@ jobs:
 
       - name: Deploy Service 
         run: |
-          aws s3 sync $(pwd) s3://clarizalook-website/
+          aws s3 sync $(pwd)/build/ s3://clarizalook-website/
