@@ -5,9 +5,9 @@ import './Contact.css'
 const Contact = () => {
     const boxes = [
         {
-            name: 'Email',
-            user: 'contact@clarizalook.com',
-            url: 'mailto:contact@clarizalook.com',
+            name: 'Linkedin',
+            user: 'clarizalook',
+            url: 'mailto:https://www.linkedin.com/in/clarizalook/',
             icon: <BsFillEnvelopeFill/>
         },
         {
